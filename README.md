@@ -11,3 +11,12 @@ Step 3 − If the value does not match with the key, compare the next element in
 Step 4 − Repeat Step 3 until there is a match found. Return the position at which the match was found.
 
 Step 5 − If it is an unsuccessful search, print that the element is not present in the array and exit the program.
+
+# Pseudocode
+procedure linear_search (list, value)
+   for each item in the list
+      if match item == value
+         return the item's location
+      end if
+   end for
+end procedure
