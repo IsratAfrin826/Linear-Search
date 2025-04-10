@@ -14,9 +14,15 @@ Step 5 − If it is an unsuccessful search, print that the element is not presen
 
 # Pseudocode
 procedure linear_search (list, value)
+
    for each item in the list
+   
       if match item == value
+      
          return the item's location
+         
       end if
+      
    end for
+   
 end procedure
